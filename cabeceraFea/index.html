@@ -18,51 +18,75 @@
     <!-- CSS Estilos -->
     <link rel="stylesheet" href="style.css">
     
+    <!--TIPOGRAFIA GOOGLE FONTS-->
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header">
         <div class="container2 logo-nav-container">
             <div class="icon-busq">
-                <a href="#"  class="logo"><img src="/imagenes/corona.jpg" alt=""></a>
+                <a href="#"  class="logo"><img src="imagenes/corona.jpg" alt=""></a>
+               <div>
+                <input class="inputBuscar" type="text" placeholder="Buscar">
+               </div>
 
-                <input type="text" placeholder="Buscar">
-
-                <i class="fas fa-shopping-cart"></i>
+                <a href="#" class="link-carrito">
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
             
             
             </div>
             <div class="navegacion">
-            <span class="menu-icon"><a href="#">Menu <i class=" fas fa-bars"></i></a></span>
+            <span class="menu-icon"><a href="#"><p class="palabraMenu"><i class="fas fa-home"></i>Menu</p><i class=" fas fa-bars"></i></a></span>
             
-                <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Acerca</a></li>
-                    <li><a href="#">Servicios</a></li>
-                    <li><a href="#">Clientes</a></li>
-                    <li><a href="#">Contacto</a></li>
+                <ul class="menuNavegacion">
+                    <li><a href="#"><i class="fas fa-home"></i> Inicio</a></li>
+                    <li><a href="#"><i class="fas fa-shopping-bag"></i> Productos</a></li>
+                    <li><a href="#"><i class="fas fa-phone-square-alt"></i> Contacto</a></li>
+                    <li><a href="#"><i class="fas fa-cart-plus"></i> Como comprar</a></li>
+                    <li><a href="#"><i class="fab fa-creative-commons-by"></i> Crear Cuenta</a></li>
+                    <li><a href="#"><i class="fas fa-sign-in-alt"></i> Iniciar sesion</a></li>
                 </ul>
             </div>
 
         </div>
 
     </header>
+    <header class="header-compu">
+    <div class="menuSuperior">
+        <div class="logo-nombre">
+            <img src="imagenes/corona.jpg" alt="">
+            <h6>NachoStore</h6>
+        </div>
+        <div class="caja-input">
+            <input type="text" placeholder="Buscar">
+        </div>
+        <div class="menuSuperiorDerecho">
+            <a href="#">Crear Cuenta</a>
+            <a href="#">Iniciar Sesion</a>
+    </div>
+    </div class="navegacionMenuInferior">
+         <ul class="listaNavegacion">
+             <li><a href="#"></a>Inicio</li>
+             <li><a href="#"></a>Productos</li>
+             <li><a href="#"></a>Contacto</li>
+             <li><a href="#"></a>Como Comprar</li>
+             <li class="cajitaDelCarrito"><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+        </ul>
+    <div>
+
+    </div>
+
+    </header>
 
     <main class="main">
         <a href="#" class="logo-centro">
-            <img src="/icono.jpg" alt="">
-            <h1 class="nombrePrincipal">Nacho estore</h1>
+            <img src="imagenes/output-onlinepngtools.png" alt="">
+            <h1 class="nombrePrincipal">Nacho Store</h1>
         </a>
         <div class="container2">
-            <h1>Titulo</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo maiores nobis, repellat esse porro delectus ea veritatis quidem vitae repudiandae harum ullam hic voluptatem inventore deserunt vero voluptatum. Esse, optio!</p>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos, odio porro iusto nemo sapiente dignissimos suscipit fugit ea numquam architecto qui aspernatur, dicta, ipsum enim consectetur itaque consequatur eveniet! Iusto laborum molestias voluptates dolor ratione! Aperiam modi reprehenderit odit numquam!</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, officia.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo maiores nobis, repellat esse porro delectus ea veritatis quidem vitae repudiandae harum ullam hic voluptatem inventore deserunt vero voluptatum. Esse, optio!</p>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos, odio porro iusto nemo sapiente dignissimos suscipit fugit ea numquam architecto qui aspernatur, dicta, ipsum enim consectetur itaque consequatur eveniet! Iusto laborum molestias voluptates dolor ratione! Aperiam modi reprehenderit odit numquam!</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, officia.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo maiores nobis, repellat esse porro delectus ea veritatis quidem vitae repudiandae harum ullam hic voluptatem inventore deserunt vero voluptatum. Esse, optio!</p>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos, odio porro iusto nemo sapiente dignissimos suscipit fugit ea numquam architecto qui aspernatur, dicta, ipsum enim consectetur itaque consequatur eveniet! Iusto laborum molestias voluptates dolor ratione! Aperiam modi reprehenderit odit numquam!</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, officia.</p>
+            <h1>Novedades</h1>
+            
         </div>
 
         
@@ -71,7 +95,7 @@
     <footer>
         <div class="container">
             <div class="lista">
-                <nav class="navegacion centrar">
+                <nav class="centrar">
                     <h4>NAVEGACIÓN</h4>
                     <ul>
                         <li><a href="#">Inicio</a></li>
