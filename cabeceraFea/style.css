@@ -14,6 +14,9 @@ body{
     max-width: 850px;
     margin: 0 auto;
 }
+header{
+    z-index: 100;
+}
 
 .header {
     background: black;
@@ -331,4 +334,5 @@ h1{
     position: absolute;
     right: 5%;
 }
+
 }
