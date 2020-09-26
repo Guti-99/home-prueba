@@ -93,7 +93,7 @@ header{
 }
 
 
-.main{
+.logoSuperior{
     padding-top: 132px;
 }
 
@@ -173,7 +173,33 @@ h1{
         background-color: gray;
         border-radius: 10px;
     }
+    /*ARTICULOS*/
+    .articulos{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
     
+    article{
+        background-color: #aeaeae;
+        border-radius: 15px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 25px;
+        padding: 15px;
+        
+    }
+
+    article img{
+        width: 100%;
+    }
+    section article:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+
     /*FOOTER*/
 
     .container{
@@ -245,6 +271,19 @@ h1{
     }
 }
 @media only screen and (min-width: 600px){
+
+    /*ARTICULOS*/
+.articulos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+article{
+    width: 45%;
+    float: left;
+}
+
     .icon-busq div{
         width: 50% !important;
         margin-left: -180px;
@@ -252,6 +291,20 @@ h1{
     }
 }
 @media only screen and (min-width: 771px) {
+
+/*ARTICULOS*/
+.articulos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+article{
+    width: 23%;
+
+}
+
+
+
 /*HEADER DE COMPUTADORA PERRIS*/
 
 .header{
