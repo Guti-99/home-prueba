@@ -96,6 +96,9 @@ main{
     color: black;
     width: 100%;
 }
+main .logoSuperior a img{
+    margin:auto;
+}
 
 
 .logoSuperior{
@@ -211,6 +214,7 @@ h1{
     width: 100%;
     background-color: black;
     max-width: none;
+    padding: 2% 5%;
 
    }
    .centrar ul {
